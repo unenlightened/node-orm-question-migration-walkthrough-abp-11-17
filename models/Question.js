@@ -4,7 +4,7 @@ const db = require("../config/db")
 
 class Question{
   static CreateTable() {
-    const sql =`                  
+    const sql =`
     CREATE TABLE questions (
       id INTEGER PRIMARY KEY,
       content TEXT
